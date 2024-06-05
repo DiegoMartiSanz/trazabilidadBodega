@@ -14,7 +14,7 @@
         <header class="cabecera">
             <h1 id="titulo">VITICULTORES</h1>
 
-            <button class="boton"> <a href="./listado.html"> VOLVER </a> </button>
+            <button class="boton"> <a href="./listado.php"> VOLVER </a> </button>
         </header>
 
         <article class="menu">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
         <header class="cabecera">
             <h1 id="titulo">VIAJES UVA</h1>
             
-            <button style="background-color: transparent;border: 0;"><a href="./listado.html"> Volver </a></button>
+            <button style="background-color: transparent;border: 0;"><a href="./listado.php"> Volver </a></button>
         </header>
 
         <article class="menu">

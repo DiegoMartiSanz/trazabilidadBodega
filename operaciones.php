@@ -14,7 +14,7 @@
         <header class="cabecera">
             <h1 id="titulo">OPERACIONES</h1>
 
-            <button style="background-color: transparent;border: 0;"> <a href="./listado.html"> Volver </a> </button>
+            <button style="background-color: transparent;border: 0;"> <a href="./listado.php"> Volver </a> </button>
         </header>
 
         <article class="menu">

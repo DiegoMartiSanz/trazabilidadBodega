@@ -24,7 +24,7 @@ include("php/conexion.php");
         
         if($result->num_rows > 0){
             
-            header("Location: listado.html");
+            header("Location: listado.php");
             exit;
         }
     }

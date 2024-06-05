@@ -16,10 +16,10 @@
     <section>
         <div class="menu">
             <label>Menu</label>
-            <a class="boton" href="./crudviticultor.html">Viticultor</a>
-            <a class="boton" href="./cruddepositos.html">Depositos</a>
-            <a class="boton" href="./viajesUva.html">Viajes de Uva</a>
-            <a class="boton" href="./operaciones.html">Operaciones</a>
+            <a class="boton" href="./crudviticultor.php">Viticultor</a>
+            <a class="boton" href="./cruddepositos.php">Depositos</a>
+            <a class="boton" href="./viajesUva.php">Viajes de Uva</a>
+            <a class="boton" href="./operaciones.php">Operaciones</a>
         </div>
     </section>
 </body>
