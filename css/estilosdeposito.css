@@ -1,0 +1,147 @@
+body {
+    background-color: #ccc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    line-height: 1em;
+    min-width: 900px;
+    color: rgba(176, 54, 72, .85);
+}
+
+main {
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    display: grid;
+    grid-template-areas:
+        "a a"
+        "b b"
+        "c c"
+        "e e";
+
+    grid-template-rows: 90px 130px 530px 50px;
+    grid-template-columns: 4fr 2fr;
+
+}
+
+.cabecera {
+    display: flex;
+    grid-area: a;
+}
+.cabecera h1{
+    width: 95%;
+    margin-top: 3.5%;
+}
+.menu {
+    grid-area: b;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.datosdelejercicio {
+    grid-area: c;
+    height: 250px;
+}
+
+.pie {
+    margin-top: 2%;
+    grid-area: e;
+    text-align: center;
+}
+.selector {
+    width: 78.5%;
+    padding-left: 2%;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+}
+
+input[type="text"] {
+    width: 75%;
+
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 15px;
+}
+input[type="number"] {
+    width: 75%;
+
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 15px;
+}
+
+button[type="button"] {
+    margin-left: 2%;
+    border-radius: 5px;
+    height: 20px;
+    width: 25px;
+    background-color: #cccccc35;
+}
+input[type="button"] {
+    margin-left: 2%;
+    border-radius: 5px;
+    height: 20px;
+    width: 25px;
+    background-color: #cccccc35;
+}
+
+input[type="submit"],
+.boton {
+    margin-left: 2%;
+    margin-top: 3.5%;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    background-color: #cccccc35;
+}
+
+input[type="submit"]:hover,
+.boton:hover {
+    background-color: rgba(176, 54, 72, 0.85);
+    color: white;
+    transition: all .2s linear;
+}
+
+fieldset {
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    border: 0;
+    padding: 30px 0 30px 0;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 3%;
+}
+
+.col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.col-50 {
+    float: left;
+    width: 45%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    width: 900px;
+    content: "";
+    display: table;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

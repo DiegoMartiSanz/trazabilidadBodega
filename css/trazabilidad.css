@@ -1,0 +1,39 @@
+body {
+    background-color: #ccc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    line-height: 1em;
+    min-width: 900px;
+    color: rgba(176, 54, 72, .85);
+    display:flex;
+    flex-wrap: wrap;
+}
+header{
+    display:flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+a{
+    width: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+table{
+    width: 100%;
+    margin-top: 5%;
+    align-items: center;
+    border-collapse: collapse;
+}
+tr{
+    height: 40px;
+    color: rgb(176, 54, 72)
+}
+tr:first-child{
+    background-color: rgb(40, 40, 40);
+    font-size: 22px;
+    color: white;
+}
+tr:nth-child(2n){
+    background-color: #797979;
+}

@@ -1,0 +1,136 @@
+body {
+    background-color: #ccc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    line-height: 1em;
+    min-width: 900px;
+    color: rgba(176, 54, 72, .85);
+}
+
+main {
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    display: grid;
+    grid-template-areas:
+        "a a"
+        "b b"
+        "c c"
+        "e e";
+
+    grid-template-rows: 90px 130px 550px 50px;
+    grid-template-columns: 4fr 2fr;
+
+}
+
+.cabecera {
+    display: flex;
+    grid-area: a;
+}
+.cabecera h1{
+    width: 98%;
+    margin-top: 3.5%;
+}
+
+.menu {
+    grid-area: b;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.datosdelejercicio {
+    grid-area: c;
+    height: 250px;
+}
+
+.pie {
+    margin-top: 2%;
+    grid-area: e;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 70%;
+    
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 15px;
+}
+
+input[type="submit"],
+.boton {
+    margin-left: 2%;
+    margin-top: 3.5%;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    background-color: #cccccc35;
+}
+
+
+input[type="submit"]:hover,
+.boton:hover {
+    margin-left: 2%;
+    margin-top: 3.5%;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    background-color: #cccccc35;
+}
+
+fieldset {
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    border: 0;
+    padding: 30px 0 30px 0;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 3%;
+}
+
+.col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    width: 800px;
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-90 {
+    float: left;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.col-center {
+    display: flex;
+    justify-content:space-around;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
