@@ -1,4 +1,5 @@
 <?php
+session_start();
 include("php/conexion.php");
 
 
@@ -24,6 +25,7 @@ include("php/conexion.php");
         
         if($result->num_rows > 0){
             
+            $_SESSION["bueno"]=true;
             header("Location: listado.php");
             exit;
         }

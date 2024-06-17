@@ -1,4 +1,11 @@
- <!DOCTYPE html>
+<?php
+session_star;
+if(!$_SESSION["bueno"]==true){
+    header("Location: index.php");
+    exit;
+}
+?>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
