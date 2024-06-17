@@ -12,7 +12,7 @@
 <body>
     <main>
         <header class="cabecera">
-            <h1 id="titulo">DEPOSITOS</h1>
+            <h1 id="titulo">DEPÓSITOS</h1>
 
             <button style="background-color: transparent;border: 0;"> <a href="./listado.php"> Volver </a> </button>
         </header>
@@ -39,7 +39,7 @@
         <article aria-label="Datos de la Parcela" class="datosdelejercicio">
             <header>
                 <h3>
-                    DATOS DEL DEPOSITO
+                    DATOS DEL DEPÓSITO
                 </h3>
             </header>
 
@@ -65,7 +65,7 @@
                         </div>
                         <div class="row">
                             <div class="col-25">
-                                <label for="ctipo">Tipo Deposito</label>
+                                <label for="ctipo">Tipo Depósito</label>
                             </div>
                             <div class="col-75">
                                 <select id="ctipo" name="tipo" class="selector">
@@ -91,7 +91,7 @@
                         </div>
                         <div class="row">
                             <div class="col-25">
-                                <label for="cdestino">Destino del deposito</label>
+                                <label for="cdestino">Destino del depósito</label>
                             </div>
                             <div class="col-75">
                                 <select id="cdestino" name="destino" class="selector">

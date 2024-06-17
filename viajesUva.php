@@ -103,7 +103,7 @@
                         </div>
                         <div class="row">
                             <div class="col-25">
-                                <label for="cnombreDepo">Id deposito seleccionado</label>
+                                <label for="cnombreDepo">Id depósito seleccionado</label>
                             </div>
                             <!-- El caracter ‎ es un caracter en blanco para que me mantenga la altura del parrafo -->
                             <div class="col-75">
@@ -118,7 +118,7 @@
                         </div>
                         <div class="row">
                             <div class="col-100">
-                                <label for="depositos">DEPOSITOS</label>
+                                <label for="depositos">DEPÓSITOS</label>
                             </div>
                             <div id="contenedorDepositos">
                                 

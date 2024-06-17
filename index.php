@@ -9,7 +9,7 @@
 <body>
     <header>
         <div>
-            <a href="login.php">Iniciar Sesion</a>
+            <a href="login.php">Iniciar Sesión</a>
         </div>
     </header>
     <section>

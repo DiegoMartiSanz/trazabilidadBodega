@@ -15,13 +15,13 @@
     <h1>Trazabilidad</h1>
     <table>
         <tr>
-            <td>ID operacion</td>
+            <td>Id operación</td>
             <td>Id origen</td>
             <td>Id destino</td>
-            <td>Tipo de operacion</td>
+            <td>Tipo de operación</td>
             <td>Fecha</td>
             <td>Cantidad</td>
-            <td>Descripcion</td>
+            <td>Descripción</td>
             <td>Productos</td>
         </tr>
         <?php

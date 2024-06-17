@@ -73,7 +73,7 @@
                         </div>
                         <div class="row">
                             <div class="col-25">
-                                <label for="ctelefono">Telefono</label>
+                                <label for="ctelefono">Teléfono</label>
                             </div>
                             <div class="col-75">
                                 <input type="text" id="ctelefono" name="telefono" pattern="[0-9]9" placeholder="123456789" required>
@@ -105,7 +105,7 @@
                         </div>
                         <div class="row">
                             <div class="col-25">
-                                <label for="ccp">Codigo Postal</label>
+                                <label for="ccp">Código Postal</label>
                             </div>
                             <div class="col-75">
                                 <input pattern="[0-9]5" type="text" id="ccp" name="cp" placeholder="12345" required>

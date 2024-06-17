@@ -11,13 +11,13 @@
 
 <body>
     <header>
-        <a href="index.php">Cerrar Sesion</a>
+        <a href="index.php">Cerrar Sesión</a>
     </header>
     <section>
         <div class="menu">
-            <label>Menu</label>
+            <label>Menú</label>
             <a class="boton" href="./crudviticultor.php">Viticultor</a>
-            <a class="boton" href="./cruddepositos.php">Depositos</a>
+            <a class="boton" href="./cruddepositos.php">Depósitos</a>
             <a class="boton" href="./viajesUva.php">Viajes de Uva</a>
             <a class="boton" href="./operaciones.php">Operaciones</a>
         </div>
