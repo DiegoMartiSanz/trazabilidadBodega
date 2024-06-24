@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(isset($_SESSION['bueno'])){
+    session_destroy();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>

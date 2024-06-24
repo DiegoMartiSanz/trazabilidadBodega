@@ -55,7 +55,17 @@
             
             while ($row != null) {
                 //inserto en la pagina web las filas con los datos recogidos de la base  de datos
-                echo "<tr><td>".$row->o."</td><td>".$row->idOrigen."</td><td>".$row->idDestino."</td><td>".$row->operacion."</td><td>".$row->fecha."</td><td>".$row->cantidad."</td><td>".$row->descripcion."</td><td>".$row->productos."</td></tr>";
+                echo "
+                <tr>
+                    <td>".$row->o."</td>
+                    <td>".$row->idOrigen."</td>
+                    <td>".$row->idDestino."</td>
+                    <td>".$row->operacion."</td>
+                    <td>".$row->fecha."</td>
+                    <td>".$row->cantidad."</td>
+                    <td>".$row->descripcion."</td>
+                    <td>".$row->productos."</td>
+                </tr>";
                 $hijo2=$row->idOrigen;
                 $output[] = $row;
                 $row = $resultado->fetch_object();
