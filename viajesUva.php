@@ -1,5 +1,5 @@
 <?php
-session_star;
+session_start();
 if(!$_SESSION["bueno"]==true){
     header("Location: index.php");
     exit;
